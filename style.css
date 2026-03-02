@@ -1,0 +1,54 @@
+.button-container {
+display: flex;
+gap: 10px;
+}
+.navbar {
+    position: fixed;
+    top: 0%;
+    z-index: 1000;
+    display: flex;
+    width: 100%;
+}
+body {
+    background-image: url(https://img.freepik.com/free-photo/street-landmark-center-urban-modern_1127-2819.jpg?semt=ais_rp_progressive&w=740&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container {
+    padding:20px; 
+    border-radius: 8px; 
+    background-color: #333333; 
+    width: 1000px; 
+    height: auto; 
+    opacity: 90%;
+}
+h1 {
+    text-align: center;
+    color: #ffff00;
+}
+summary {
+    text-align: center;
+    color: #ffffff;
+    font-size: 25px;
+}
+h4 {
+    color: #000000;
+    padding:20px; 
+    border-radius: 8px; 
+    background-color: #ffffff; 
+    width: auto; 
+    height: auto; 
+    opacity: 90%;
+    font-size: 20px;
+}
+.footer-custom h5 {
+    color: #ffffff;
+}
+footer {
+    position: fixed;
+    bottom: 0%;
+    z-index: 1000;
+    display: flex;
+    width: 100%;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm" style="background-color: #010d69;">
+        <div class="container-fluid">
+            <a href="index.html" class="navbar-brand"><img src="https://static.vecteezy.com/system/resources/thumbnails/006/476/250/small/motorcycle-silhouette-design-free-vector.jpg" alt="Motorcycle" width="50px" height="50px"></a>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <form class="d-flex">
+                    <div class="button-container">
+                        <a href="index.html" class="nav-link"><button type="button" class="btn form-control me-2" style="background-color: #39d6fe;">Home</button></a>
+                        <a href="page2.html" class="nav-link"><button type="button" class="btn form-control me-2" style="background-color: #39d6fe;">Table</button></a>
+                        <a href="#" class="nav-link"><button type="button" class="btn form-control me-2" style="background-color: #39d6fe;">Schedule</button></a>
+                        <a href="page4.html" class="nav-link"><button type="button" class="btn form-control me-2" style="background-color: #39d6fe;">Fare Matrix</button></a>
+                        <a href="page5.html" class="nav-link"><button type="button" class="btn form-control me-2" style="background-color: #009f1d;">Book Now</button></a>
+                        <a href="page5.html" class="nav-link"><button type="button" class="btn form-control me-2" style="background-color: #0e00ce; color: #ffffff;">Create Account</button></a>
+                    </div>   
+                </form>
+            </div>
+        </div>
+    </nav>
+    <br><br><br>
+    <div class="container mt-4">
+        <form class="box mt-4" id="form" action="page6.html" method="post">
+            <h1 class="text-center"> Registration Form</h1>
+            <p class="text-center" style="color: #000000;">Fill out the form to register</p>
+            <h2 class="h5"> Info</h2>
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <label class="form-label">First Name</label>
+                    <input type="text" class="form-control" required>
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label">Last Name</label>
+                    <input type="text" class="form-control" required>
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label">Birthday</label>
+                    <input type="date" class="form-control" required>
+                </div>
+                <div class="col-md-3">
+                    <label class="form-label">Gender</label>
+                    <select class="form-control">
+                        <option disabled selected>Select</option>
+                        <option required>Male</option>
+                        <option required>Female</option>
+                        <option required>Other</option>
+                    </select>
+                </div>
+            </div>
+            <h2 class="h5 mt-4">Contact Information</h2>
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <label class="form-label">Email </label>
+                    <input type="email" class="form-control" required>
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label">Phone Number</label>
+                    <input type="number" class="form-control" required>
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label">Username</label>
+                    <input type="text" class="form-control" required>
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label">Password</label>
+                    <input type="password" class="form-control" required>
+                </div>
+            </div>
+            <div class="form-check mt-3">
+                <input class="form-check-input" type="checkbox" required>
+                <label class="form-check-label">
+                    I agree to the terms and policies
+                </label>
+            </div>
+            <button type="submit" class="btn btn-success w-25 mt-4" id="submitButton" value="Go to another page" enabled>Submit</button>
+            <button type="reset" class="btn btn-danger w-25 mt-4">Clear</button>
+        </form>
+        <p class="text-center text-black mt-3">
+        </p>
+    </div>
+    <footer class="footer-custom text-light pt-4 pb-2" style="background-color: rgb(4, 0, 129, 0.6); text-align: center;">
+        <div class="container-fluid">
+            <div class="row">
+                <div>
+                    <p>Alonzo Emmanuel Paulino, Brenton Adam Dela Fuente | 9-Topaz ©2026</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<div id="display_image"></div>
+<div id="required"></div>
+<script src="proj5.js"></script>
+</html>
